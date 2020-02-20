@@ -4,6 +4,13 @@ Encora prides itself in providing over A11Y and i18N react native components, th
 
 The style guides for the UI is largely influenced by Foretag's Sirocco design.
 
+## Installation
+
+NPM 
+```
+npm i @encora/client --save
+```
+
 ## Theming
 
 We understand that each application has a unique requirement in how the UX, Branding and Structure is laid out, so Encora comes with a theme manager, which allows you easily manipulate all the components, their apperance and behaviour with ease.
