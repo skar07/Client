@@ -15,15 +15,6 @@ module.exports = {
 					test: /\.(js|jsx)$/,
 					loader: 'babel-loader',
 					exclude: [/node_modules/],
-					options: {
-						plugins: [
-							'@babel/proposal-class-properties',
-							'@babel/proposal-object-rest-spread',
-							'react-native-web',
-						],
-						presets: ['@babel/preset-env', '@babel/preset-flow', 'module:metro-react-native-babel-preset'],
-						babelrc: false,
-					},
 				},
 				{
 					test: /\.(jpe?g|png|gif)$/i,
