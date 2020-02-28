@@ -2,7 +2,8 @@ declare type ComponentProps = {
 	background?: string,
 	color?: string,
 	rounded?: boolean | number,
-	textSize?: number
+	textSize?: number,
+	width?: number
 }
 
 declare type ContainerProps = {

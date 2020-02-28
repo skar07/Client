@@ -13,6 +13,13 @@
 />
 ```
 
+```
+<Button
+	rounded={500}
+	width='50%'
+	content='Even more Rounded'
+/>
+```
 
 #### Disabled
 A disabled button does not trigger any events

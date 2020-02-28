@@ -1,0 +1,5 @@
+```
+<Input
+	content='LOL'
+/>
+```

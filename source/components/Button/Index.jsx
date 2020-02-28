@@ -30,6 +30,8 @@ type Props = {
 	disabled?: boolean,
 	/** Description of the button for A11y */
 	description: string,
+	/** The width of a button */
+	width?: number,
 	/** Execute on press */
 	onPress?: Function
 }	
@@ -50,6 +52,7 @@ const Button = (props: Props): React.Node => {
 		textSize,
 		content,
 		disabled,
+		width,
 		description,
 		onPress
 	} = props
@@ -72,6 +75,8 @@ const Button = (props: Props): React.Node => {
 			<ButtonContainer 
 				background={isDisabled === true ? 'gray' : background}
 				rounded={rounded === true ?  5 : rounded}
+				width={width}
+				widthType='percent'
 			>
 				<ButtonText
 					selectable
