@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
 	require: ['@babel/polyfill'],
-	components: 'source/components/**/Index.jsx',
+	components: 'source/components/**/index.jsx',
 	webpackConfig: {
 		resolve: {
 			// auto resolves any react-native import as react-native-web
