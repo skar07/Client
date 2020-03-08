@@ -7,6 +7,16 @@ import { View, Text, Image } from 'react-native'
 import Button from '../Button'
 import Hr from '../Hr'
 
+/*
+	Versions
+
+	- Profile Card
+	- Product Card
+	- Pricing Card
+	- Components to build own card
+	
+*/
+
 const CardContainer = Styled.View`
 	width: 320px;
 	border: 1px solid gray;

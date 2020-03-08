@@ -33,6 +33,15 @@ module.exports = {
 					test: /\.ttf$/,
 					loader: 'file-loader',
 				},
+				{
+					test: /postMock.html$/,
+					use: {
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]',
+						},
+					},
+				}
 			],
 		},
 		// Most react native projects will need some extra plugin configuration.
