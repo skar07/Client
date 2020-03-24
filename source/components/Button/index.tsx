@@ -1,4 +1,3 @@
-// @flow
 import * as React from 'react'
 import { TouchableWithoutFeedback } from 'react-native'
 
@@ -45,7 +44,7 @@ type Props = {
     * @since 0.0.1
     * @author [Chiru B](https://github.com/itsezc)
 */
-const Button = (props: Props): React.Node => {
+const Button = (props: Props): JSX.Element => {
 
 	const { 
 		background, 

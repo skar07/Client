@@ -1,9 +1,7 @@
-// @flow
-
 import { View } from 'react-native'
 import Styled from 'styled-components/native'
 
-const ButtonContainer: React.ComponentType<ContainerProps> = Styled.View`
+const ButtonContainer = Styled.View`
     background-color: ${props => props.background};
     border-radius: ${props => props.rounded + 'px'};
     width: ${props => props.width|| '100px'};
