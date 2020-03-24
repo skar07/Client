@@ -31,7 +31,7 @@ module.exports = {
 				},
 				{
 					test: /\.ttf$/,
-					loader: 'file-loader',
+					loader: 'url-loader',
 				},
 				{
 					test: /postMock.html$/,

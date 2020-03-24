@@ -1,5 +1,3 @@
-// @flow
-
 import { WebSocketLink } from '@apollo/link-ws'
 import { SubscriptionClient } from 'subscriptions-transport-ws'
 
