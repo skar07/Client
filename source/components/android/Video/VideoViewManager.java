@@ -1,6 +1,6 @@
 public class VideoViewManager extends SimpleViewManager<VideoView> {
 	
-	public static final String REACT_CLASS = 'VideoView';
+	public static final String REACT_CLASS = 'Video';
 
 	@Override
 	public String getName() {
